@@ -1,0 +1,74 @@
+.consulting-form {
+    padding: 50px 20px;
+    background-color: #fff; /* Dominating color: White */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+  }
+  
+  .consulting-container {
+    width: 60%; /* Reduced width of form box */
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto;
+  }
+  
+  .consulting-form h2 {
+    font-size: 36px;
+    color: #00488E; /* Primary color: Midnight Blue */
+    margin-bottom: 20px;
+  }
+  
+  .consulting-form h3 {
+    font-size: 22px;
+    color: #ffae00;
+    margin-bottom: 20px;
+  }
+  
+  .consulting-form input, .consulting-form textarea {
+    width: 70%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .consulting-form input:focus, .consulting-form textarea:focus {
+    border-color: #00488E; /* Highlight border on focus with Primary color */
+    outline: none;
+  }
+  
+  .consulting-form .button-container {
+    margin-top: 20px;
+  }
+  
+  .consulting-form .submit-btn, .consulting-form .cancel-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-transform: uppercase;
+  }
+  
+  .consulting-form .submit-btn {
+    background-color: #F7A800; /* Secondary color: Chrome Yellow */
+    color: #fff;
+  }
+  
+  .consulting-form .cancel-btn {
+    background-color: #00488E;
+    color: #fff;
+  }
+  
+  .consulting-form .submit-btn:hover {
+    background-color: #e69500; /* Darker shade of Chrome Yellow for hover */
+  }
+  
+  .consulting-form .cancel-btn:hover {
+    background-color: #00488E;
+  }
+  
+  
