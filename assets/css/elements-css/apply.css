@@ -11,7 +11,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size:40px ;
@@ -83,7 +83,7 @@ textarea {
 }
 
 .cancel-btn {
-    background-color: #0059b3 ;
+    background-color: #00488E ;
     color: white;
 }
 
@@ -120,10 +120,12 @@ textarea {
     transition: background-color 0.3s ease;
 }
 
-.add-btn:hover, .remove-btn:hover {
-    background-color: #888;
+.add-btn:hover{
+    background-color: #38628b;
 }
-
+.remove-btn:hover {
+    background-color: #fd867d;
+}
 .remove-btn {
     background-color: #f44336;
 }

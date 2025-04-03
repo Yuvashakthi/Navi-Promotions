@@ -21,7 +21,7 @@
 	transform: scale(1.05);
 }
 
-.portfolio-details-content h2{
+.portfolio-details-content h1{
 	display: block;
 	font-size: 40px;
 	line-height: 50px;
@@ -42,10 +42,11 @@
 	padding: 40px 40px 50px 40px;
 }
 
-.portfolio-sidebar h3{
+.portfolio-sidebar h2{
 	display: block;
 	font-size: 28px;
 	line-height: 38px;
+	color: #F7A800;
 	font-weight: 600;
 	margin-bottom: 25px;
 }
@@ -56,9 +57,10 @@
 	margin-bottom: 20px;
 }
 
-.portfolio-sidebar .info-list li h5{
+.portfolio-sidebar .info-list li h3{
 	display: block;
 	font-size: 18px;
+	color: #00488E;
 	line-height: 28px;
 	font-weight: 600;
 }

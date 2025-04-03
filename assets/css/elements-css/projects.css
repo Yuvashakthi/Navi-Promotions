@@ -366,13 +366,11 @@
 	font-weight: 600;
 }
 
-.project-block-three .inner-box .lower-content h3 a{
+.project-block-three .inner-box .lower-content h2 a{
 	display: inline-block;
 	color: #222;
-}
-
-.project-block-three .inner-box .lower-content h3 a:hover{
-
+	font-size: 25px;
+	font-weight: bold;
 }
 
 

@@ -202,12 +202,14 @@
 	margin-bottom: 12px;
 }
 
-.news-block-two .inner-box .lower-content h3 a{
+.news-block-two .inner-box .lower-content h2 a{
 	display: inline-block;
 	color: #00488E;
+	font-weight: bold;
+	font-size: 20px;
 }
 
-.news-block-two .inner-box .lower-content h3 a:hover{
+.news-block-two .inner-box .lower-content h2 a:hover{
 
 }
 
