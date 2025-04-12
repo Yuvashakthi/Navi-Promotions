@@ -637,3 +637,20 @@
 if (window.top !== window.self) {
     window.top.location = window.self.location;
 }
+
+
+  $(document).ready(function() {
+    var $grid = $('.filter-items').isotope({
+      itemSelector: '.filter-item',
+      layoutMode: 'fitRows'
+    });
+
+    $('.filter-tabs').on('click', '.filter', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+
+      $('.filter-tabs .filter').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+
