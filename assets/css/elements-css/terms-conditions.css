@@ -81,3 +81,233 @@ p {
         font-size: 14px;
     }
 }
+
+
+/* General Footer Styles */
+.footer {
+    position: relative;
+    background: #1D1826;
+    padding: 97px 0 85px 0;
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+}
+
+/* Pattern Layers - Optional */
+.footer::before,
+.footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 373px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.footer::before {
+    left: 0;
+    background-image: url('left-pattern.png'); /* Replace with actual image */
+}
+
+.footer::after {
+    right: 0;
+    background-image: url('right-pattern.png'); /* Replace with actual image */
+}
+
+/* Footer Container */
+.footer .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    z-index: 1;
+}
+
+/* Logo and Description */
+.footer .footer-about {
+    flex: 1 1 250px;
+    margin-top: -14px;
+}
+
+.footer .footer-about img {
+    max-width: 184px;
+    margin-bottom: 32px;
+    margin-top: -70px;
+}
+
+.footer .footer-about p {
+    color: #fff;
+    margin-bottom: 26px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.footer .footer-about p:last-child {
+    margin-bottom: 0;
+}
+
+/* Footer Columns */
+.footer-column {
+    flex: 1 1 180px;
+}
+
+.footer-column h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 14px;
+}
+
+.footer-column ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-column ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-column ul li a:hover {
+    color: #F7A800;
+}
+
+/* Contact Section */
+.footer-column .contact-info li {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    padding-left: 28px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.footer-column .contact-info li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-column .contact-info li i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 16px;
+}
+
+.footer-column .contact-info li:first-child i {
+    font-size: 21px;
+    top: 5px;
+}
+
+.footer-column .contact-info li:last-child i {
+    font-size: 16px;
+    top: 6px;
+}
+
+.footer-column .contact-info li a {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-column .contact-info li a:hover {
+    color: #F7A800;
+}
+
+/* Links List */
+.links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.links-list li {
+    margin-bottom: 12px; /* spacing between items */
+}
+
+.links-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400; /* Normal weight, not bold */
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+    color: #f0c040; /* You can change to any hover color */
+}
+
+/* Widget Content */
+.widget-content {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.widget-content p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Info List */
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    margin-bottom: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.info-list i {
+    margin-right: 10px;
+    color: #f0c040; /* icon color */
+    font-size: 18px;
+}
+
+.info-list a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.info-list a:hover {
+    color: #f0c040;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+    position: relative;
+    background: #191521;
+    padding: 31px 0;
+    text-align: center;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer-bottom a:hover {
+    color: #F7A800;
+}
