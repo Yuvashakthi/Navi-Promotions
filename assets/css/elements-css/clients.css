@@ -2,11 +2,16 @@
     padding: 60px 0;
 }
 
-.inner-box {
+.inner-box1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+}
+
+.inner-box {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .clients-logo {
