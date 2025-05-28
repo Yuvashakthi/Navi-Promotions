@@ -641,8 +641,6 @@ img {
 
 
 
-
-
 /*** 
 
 ====================================================================
@@ -864,10 +862,6 @@ img {
   font-weight: 500;
 }
 
-.header-top .info li a:hover{
-
-}
-
 .header-top .top-right{
   position: relative;
   display: flex;
@@ -889,9 +883,7 @@ img {
   font-weight: 500;
 }
 
-.header-top .top-right .login a:hover{
 
-}
 
 .header-top .social-links li{
   position: relative;
@@ -908,9 +900,7 @@ img {
   color: #fff;
 }
 
-.header-top .social-links li a:hover{
 
-}
 
 /** header-lower **/
 
@@ -954,9 +944,6 @@ img {
   transition: all 500ms ease;
 }
 
-.main-header .menu-right-content .search-box-outer:hover{
-
-}
 
 .main-header .menu-right-content .btn-box a{
   position: relative;
@@ -1052,10 +1039,7 @@ img {
   padding-right: 17px;
 }
 
-.main-menu .navigation > li.current > a,
-.main-menu .navigation > li:hover > a{
-  
-}
+
 
 .main-menu .navigation > li.dropdown > a:before{
   position: absolute;
@@ -1141,10 +1125,6 @@ img {
   color: #ffffff;
 }
 
-.main-menu .navigation > li > ul > li > a:hover,
-.main-menu .navigation > li > .megamenu li > a:hover{
-  
-}
 
 .main-menu .navigation > li > ul > li:last-child > a,
 .main-menu .navigation > li > .megamenu li:last-child > a{
@@ -1220,9 +1200,7 @@ img {
   border-bottom: none;
 }
 
-.main-menu .navigation > li > ul > li > ul > li > a:hover{
-  
-}
+
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown > a:after{
   font-family: 'Font Awesome 5 Pro';
@@ -1268,10 +1246,6 @@ img {
   transition: all 500ms ease;
 }
 
-.main-menu .navigation li.current.dropdown .dropdown-btn,
-.main-menu .navigation li:hover .dropdown-btn{
-  
-}
 
 .main-menu .navigation li.dropdown ul li.dropdown .dropdown-btn{
   display: none;
@@ -1578,9 +1552,7 @@ img {
   transition: all 500ms ease; 
 }
 
-.mobile-menu .social-links li a:hover{
-  
-}
+
 
 div#mCSB_1_container{
   top: 0px !important;
@@ -1611,9 +1583,6 @@ div#mCSB_1_container{
   color: rgba(255,255,255,0.80);
 }
 
-.mobile-menu .contact-info ul li a:hover{
-  
-}
 
 .mobile-menu .contact-info ul li:last-child{
   margin-bottom: 0px;
@@ -1863,10 +1832,7 @@ div#mCSB_1_container{
   resize: none;
 }
 
-.default-form .form-group input:focus,
-.default-form .form-group textarea:focus{
 
-}
 
 .links-list li a{
    text-decoration: none !important;
@@ -1988,9 +1954,7 @@ div#mCSB_1_container{
   color: #fff;
 }
 
-.main-footer .contact-widget .info-list li a:hover{
 
-}
 
 .main-footer .pattern-layer .pattern-1{
   position: absolute;
@@ -2025,9 +1989,7 @@ div#mCSB_1_container{
   font-weight: 500;
 }
 
-.footer-bottom a:hover{
 
-}
 
 /** header-style-two **/
 
@@ -2073,10 +2035,7 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
-.owl-dots-one .owl-dots .owl-dot.active span,
-.owl-dots-one .owl-dots .owl-dot:hover span{
 
-}
 
 .accordion-box .block .acc-content.current{
   display:block;  
@@ -2109,9 +2068,7 @@ div#mCSB_1_container{
   color: #6E6E6E;
 }
 
-.main-footer.alternat-2 .links-widget .links-list li a:hover{
 
-}
 
 .main-footer.alternat-2 .contact-widget .widget-content p,
 .main-footer.alternat-2 .contact-widget .info-list li,
@@ -2121,9 +2078,7 @@ div#mCSB_1_container{
   color: #6E6E6E;
 }
 
-.main-footer.alternat-2 .contact-widget .info-list li a:hover{
 
-}
 
 .main-footer.alternat-2 .pattern-layer .pattern-2{
   width: 625px;
@@ -2131,10 +2086,6 @@ div#mCSB_1_container{
 
 .main-footer.alternat-2 .footer-bottom{
   background: #EDEDED;
-}
-
-.main-footer.alternat-2 .footer-bottom p a:hover{
-
 }
 
 
@@ -2159,10 +2110,7 @@ div#mCSB_1_container{
   color: #fff;
 }
 
-.header-style-three .main-menu .navigation > li.current > a, 
-.header-style-three .main-menu .navigation > li:hover > a{
 
-}
 
 .header-style-three .header-lower .menu-right-content .search-box-outer{
   color: #fff;
@@ -2175,9 +2123,6 @@ div#mCSB_1_container{
   color: #fff;
 }
 
-.header-style-three .menu-right-content .cart-box a:hover{
-
-}
 
 .header-style-three .menu-right-content .cart-box{
   margin-right: 30px;
@@ -2265,10 +2210,7 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
-.bootstrap-touchspin .glyphicon-chevron-up:hover:before,
-.bootstrap-touchspin .glyphicon-chevron-down:hover:before{
-  
-}
+
 
 .bootstrap-touchspin .input-group-btn-vertical{
   position: absolute;
@@ -2304,10 +2246,7 @@ div#mCSB_1_container{
   border-radius: 30px;
 }
 
-.default-form input:focus,
-.default-form textarea:focus{
 
-}
 
 .elements-page .owl-carousel .owl-stage-outer{
   overflow: visible;
