@@ -2300,3 +2300,26 @@ div#mCSB_1_container{
   }
 }
 
+.image{
+  height:270px;
+}
+.portfolio-img{
+  height:518px;
+}
+
+
+@media screen and (max-width: 375px){
+  .overlay-content{
+    width: 460px !important;
+    height:256px;
+  }
+}
+
+
+@media (max-width: 667px) and (min-width: 375px) {
+  .portfolio-img {
+    height: 320px !important;
+    object-fit: cover;
+    width: 100%;
+  }
+}
